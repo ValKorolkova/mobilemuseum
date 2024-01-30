@@ -21,7 +21,8 @@ btnRandom.addEventListener("click", ()=>{
     const firstButton = document.querySelector('#myButton');
             firstButton.addEventListener('click',function(){
                 if(myAudio.paused ===true){
-                    myAudio.play();
+                   myAudio.src = "./melody/mortal.mp3";
+                   myAudio.play();
                 }
                 else {
                     myAudio.pause();
