@@ -721,6 +721,9 @@ input {
     .article-game {
         margin-left: 20px;
     }
+    .carusel-container {
+	    width: 100%
+    }
     
     .sloboda-foto {
         width: 100%;
