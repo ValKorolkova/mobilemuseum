@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Offcanvas navbar large">
+        <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header nav-style">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Меню</h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-style">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Игра</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Стоимость</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First page -->
+
+
+    <section id="first-page" >
+        <div class="first-container">
+            <div class="col-12 col-md-12 col-lg-4 mt-5 address-container">
+                <div class="logo">
+                    <a class="navbar-brand " href="index.html"><img src="./img_main/logo_color.svg" alt="Калязинский музей мобильных устройств" width="260px"></a>
+                </div>
+                <div class="address">
+                    <h3 class="second-header">Адрес:</h3>
+                    <p class="article">Школьная ул., Калязин</p>
+                    <h3 class="second-header">Телефон:</h3>
+                    <p class="article">+7(925)219-36-37</p>
+                </div>
+            </div>
+                <div class="col-12 col-md-12 col-lg-6 first-random-container">
+                    <img id="foto-random" class="foto-first-page" src="./random/random.jpg" alt="">
+                    <button id="btn-random">Обновить</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- Menu -->
+    <section class="menu">
+        <div class="container">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
+                <div class="col btn-container">
+                    <a href="./phone.html"><button class="btn-menu">Телефоны</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./comp.html"><button class="btn-menu">ПК</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./game.html"><button class="btn-menu">Игры</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./audio.html"><button class="btn-menu">Аудио</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./video.html"><button class="btn-menu">Фото/Видео</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./other.html"><button class="btn-menu">Прочее</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards -->
+
+    <div>
+        <div class="game-heading">
+            <h1 class="header">Коллекция телефонов</h1>
+        </div>
+        <div class="input-container">
+            <input id="input-line" type="text" name="search" placeholder="Поиск...">
+        </div>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./phone_img/tel1-1.jpg" class="card-img-top" alt="nokia">
+                <div class="card-body card-name">
+                    <h5 class="card-title"><strong>Nokia 3310</strong></h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 2000</p>
+                    <p class="card-text"><strong>Страна:</strong> Финляндия</p>
+                    <p class="card-text"><strong>Вес:</strong> 133 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 113×48×22 мм</p>
+                    <p class="card-text">Кроме функций осуществления/приёма звонков и обмена мгновенными сообщениями (поддерживается система T9), встроенное программное обеспечение аппарата включает приложения: «Таймер», «Будильник» т.д.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal1">Подробнее...</button>
+                <!-- Modal 1 -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Nokia 3310</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./phone_img/tel1-1.jpg" class="d-block w-100" alt="nokia">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./phone_img/tel1-2.jpg" class="d-block w-100" alt="nokia">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./phone_img/tel1-3.jpg" class="d-block w-100" alt="nokia">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Кроме функций осуществления/приёма звонков и обмена мгновенными сообщениями (поддерживается система T9), встроенное программное обеспечение аппарата включает приложения: «Таймер», «Будильник», «Калькулятор», систему голосового набора, а также четыре игры — «Snake II», «Pairs II», «Space Impact» и «Bantumi». <br> Телефон-легенда, стал настоящим мемом в интернете в наши дни благодаря своей прочности.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div>
+                                <p class="modal-header-timer">С даты выпуска прошло:</p>
+                            </div>
+                            <div class="time-container">
+                                <div class="time-second-container">
+                                    <div class="time-block">
+                                        <p class="years"></p>
+                                        <p class="timer-text">лет</p>
+                                    </div>
+                                </div>
+
+                                <div class="time-second-container">
+                                    <div class="time-block">
+                                        <p class="month"></p>
+                                        <p class="timer-text">месяцев</p>
+                                    </div>
+                                </div>
+
+                                <div class="time-second-container">
+                                    <div class="time-block">
+                                        <p class="days"></p>
+                                        <p class="timer-text">дней</p>
+                                    </div>
+                                </div>
+
+                                <div class="time-second-container">
+                                    <div class="time-block">
+                                        <p class="hours"></p>
+                                        <p class="timer-text">часов</p>
+                                    </div>
+                                </div>
+
+                                <div class="time-second-container">
+                                    <div class="time-block">
+                                        <p class="minuts"></p>
+                                        <p class="timer-text">минут</p>
+                                    </div>
+                                </div>
+
+                                <div class="time-second-container">
+                                    <div class="time-block">
+                                        <p class="seconds"></p>
+                                        <p class="timer-text">секунд</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./phone_img/tel2-1.jpg" class="card-img-top" alt="Motorola RAZR V3">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Motorola RAZR V3</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 2004</p>
+                    <p class="card-text"><strong>Страна:</strong> США</p>
+                    <p class="card-text"><strong>Вес:</strong> 95 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 98×53×14 мм</p>
+                    <p class="card-text">Сотовый телефон обладает внутренним дисплеем с диагональю 2,2 дюйма и разрешением 176×220 пикселей, выполненным по технологии, способный отображать более 262 тыс. оттенков цвета.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Подробнее...</button>
+                <!-- Modal 2 -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Motorola RAZR V3</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample2" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./phone_img/tel2-1.jpg" class="d-block w-100" alt="Motorola RAZR V3">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./phone_img/tel2-2.jpg" class="d-block w-100" alt="Motorola RAZR V3">
+                                        </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Сотовый телефон обладает внутренним дисплеем с диагональю 2,2 дюйма и разрешением 176×220 пикселей, выполненным по технологии, способный отображать более 262 тыс. оттенков цвета. <br> Внешний STN-дисплей имеет меньшее разрешение (96×80 пикселей) и отображает 4096 оттенков цвета<div class="br"></div> Аппарат снабжён записной книжкой, клиентом для сообщений (EMS, SMS, MMS, email), браузером, обеспечивающим поддержку WAP 2.0 и отображение HTML 4/XHTML. <br> Офисную часть обеспечивают органайзер (календари событий, будильники), калькулятор и конвертер величин. <br> Развлекательную часть обеспечивают простой плеер, поддерживающий MP3, а также 3 игры (бильярд, гольф и камни).</p>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <p class="modal-header-timer">С даты выпуска прошло:</p>
+                                </div>
+                                <div class="time-container">
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="yearsTwo"></p>
+                                            <p class="timer-text">лет</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="monthTwo"></p>
+                                            <p class="timer-text">месяцев</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="daysTwo"></p>
+                                            <p class="timer-text">дней</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="hoursTwo"></p>
+                                            <p class="timer-text">часов</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="minutsTwo"></p>
+                                            <p class="timer-text">минут</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="secondsTwo"></p>
+                                            <p class="timer-text">секунд</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./phone_img/tel3-1.jpg" class="card-img-top" alt="Nokia 9210">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Nokia 9210</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 2001</p>
+                    <p class="card-text"><strong>Страна:</strong> Финляндия</p>
+                    <p class="card-text"><strong>Вес:</strong> 244 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 158×56×27 мм</p>
+                    <p class="card-text">Основные приложения: мобильный телефон, настольное приложение, обмен сообщениями (SMS, факс, электронная почта), Интернет (Интернет, WAP) и т.д.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal3">Подробнее...</button>
+                <!-- Modal 3-->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Nokia 9210</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample3" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./phone_img/tel3-1.jpg" class="d-block w-100" alt="nokia">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./phone_img/tel3-2.jpg" class="d-block w-100" alt="nokia">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./phone_img/tel3-3.jpg" class="d-block w-100" alt="nokia">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Основные приложения: мобильный телефон, настольное приложение, обмен сообщениями (SMS, факс, электронная почта), Интернет (Интернет, WAP), контакты (адресная книга), календарь, офис (текстовый процессор, электронные таблицы, просмотр презентаций, файловый менеджер). <br> Дополнительные приложения: калькулятор, часы, игры, диктофон и конвертер единиц измерения. <br>
+                                    В закрытом режиме используется как обычный, но громоздкий мобильный телефон; в открытом состоянии его можно использовать как очень маленький ноутбук с экраном 640 × 200. Динамик и микрофон расположены сзади, поэтому для совершения звонка необходимо держать их передним экраном и клавиатурой наружу.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <p class="modal-header-timer">С даты выпуска прошло:</p>
+                                </div>
+                                <div class="time-container">
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="yearsThree"></p>
+                                            <p class="timer-text">лет</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="monthThree"></p>
+                                            <p class="timer-text">месяцев</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="daysThree"></p>
+                                            <p class="timer-text">дней</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="hoursThree"></p>
+                                            <p class="timer-text">часов</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="minutsThree"></p>
+                                            <p class="timer-text">минут</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="secondsTwo"></p>
+                                            <p class="timer-text">секунд</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./phone_img/tel4-1.jpg" class="card-img-top" alt="Siemens C25">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Siemens C25</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1999</p>
+                    <p class="card-text"><strong>Страна:</strong> Германия</p>
+                    <p class="card-text"><strong>Вес:</strong> 135 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 117×47×27 мм</p>
+                    <p class="card-text">Монохромный 3 × 12-символьный ЖК-дисплей. Аккумулятор телефона обеспечивает работу телефона в течение 300 минут в режиме разговора или до 160 часов в режиме ожидания.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal4">Подробнее...</button>
+                <!-- Modal 4 -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Siemens C25</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample4" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./phone_img/tel4-1.jpg" class="d-block w-100" alt="Siemens C25">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./phone_img/tel4-2.jpg" class="d-block w-100" alt="Siemens C25">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Монохромный 3 × 12-символьный ЖК-дисплей. Аккумулятор телефона обеспечивает работу телефона в течение 300 минут в режиме разговора или до 160 часов в режиме ожидания. Это двухдиапазонный мобильный телефон, поддерживающий частоты сети GSM 900 и GSM 1800. <br> 
+                                    Он поддерживает до 21 монофонических мелодий. Он также поддерживает отправку и получение SMS.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <p class="modal-header-timer">С даты выпуска прошло:</p>
+                                </div>
+                                <div class="time-container">
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="yearsFour"></p>
+                                            <p class="timer-text">лет</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="monthFour"></p>
+                                            <p class="timer-text">месяцев</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="daysFour"></p>
+                                            <p class="timer-text">дней</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="hoursFour"></p>
+                                            <p class="timer-text">часов</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="minutsFour"></p>
+                                            <p class="timer-text">минут</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="secondsFour"></p>
+                                            <p class="timer-text">секунд</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./phone_img/tel5-1.jpg" class="card-img-top" alt="Motorola StarTAC">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Motorola StarTAC</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1996</p>
+                    <p class="card-text"><strong>Страна:</strong> США</p>
+                    <p class="card-text"><strong>Вес:</strong> 88 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 94×55×19 мм</p>
+                    <p class="card-text">Первая «раскладушка» (флип-телефон) на рынке мобильных телефонов. <br> Используется дизайн «с полукруглой раковиной», впервые использованный компанией в 1989 году.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal5">Подробнее...</button>
+                <!-- Modal 5-->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Motorola StarTAC</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample5" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./phone_img/tel5-1.jpg" class="d-block w-100" alt="Motorola StarTAC">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./phone_img/tel5-2.jpg" class="d-block w-100" alt="Motorola StarTAC">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Первая «раскладушка» (флип-телефон) на рынке мобильных телефонов. <br> Используется дизайн «с полукруглой раковиной», впервые использованный компанией в 1989 году. <br> В отличие от MicroTAC, StarTAC складывался над дисплеем. В 2005 году журнал PC World назвала StarTAC шестым величайшим гаджетом за последние 50 лет (из пятидесяти). <br> StarTAC был одним из первых мобильных телефонов, которые получили широкое распространение среди потребителей: было продано около 60 миллионов моделей StarTAC.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <p class="modal-header-timer">С даты выпуска прошло:</p>
+                                </div>
+                                <div class="time-container">
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="yearsFive"></p>
+                                            <p class="timer-text">лет</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="monthFive"></p>
+                                            <p class="timer-text">месяцев</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="daysFive"></p>
+                                            <p class="timer-text">дней</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="hoursFive"></p>
+                                            <p class="timer-text">часов</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="minutsFive"></p>
+                                            <p class="timer-text">минут</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="secondsFive"></p>
+                                            <p class="timer-text">секунд</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./phone_img/tel6-1.jpg" class="card-img-top" alt="Paiger MultiPage">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Paiger MultiPage</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1990-е</p>
+                    <p class="card-text"><strong>Страна:</strong> Тайвань</p>
+                    <p class="card-text"><strong>Вес:</strong> 116 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 86×59×19 мм</p>
+                    <p class="card-text">Пейджеры были популярным средством связи в 90-е годы до распространения сотовых телефонов.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal6">Подробнее...</button>
+                <!-- Modal 6-->
+                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Paiger MultiPage</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample6" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./phone_img/tel6-1.jpg" class="d-block w-100" alt="Paiger MultiPage">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./phone_img/tel6-2.jpg" class="d-block w-100" alt="Paiger MultiPage">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Пейджеры были популярным средством связи в 90-е годы до распространения сотовых телефонов. <br> Работали они, как сотовые, но только на прием текстовых сообщений. <br> А сообщение нужно было передать по звонку оператору пейджинговой сети. <br>
+                                    Объем памяти пейджера 6400 символов, дисплей 4 стр.X 20 знаков. <br> Питание осуществляется от одной батарейки ААА. Дополнительные функции - подсветка дисплея и будильник.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <div>
+                                    <p class="modal-header-timer">С даты выпуска прошло:</p>
+                                </div>
+                                <div class="time-container">
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="yearsSix"></p>
+                                            <p class="timer-text">лет</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="monthSix"></p>
+                                            <p class="timer-text">месяцев</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="daysSix"></p>
+                                            <p class="timer-text">дней</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="hoursSix"></p>
+                                            <p class="timer-text">часов</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="minutsSix"></p>
+                                            <p class="timer-text">минут</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="time-second-container">
+                                        <div class="time-block">
+                                            <p class="secondsSix"></p>
+                                            <p class="timer-text">секунд</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button modal -->
+
+    <div class="btn-modal-more">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-modal-more-style" data-bs-toggle="modal" data-bs-target="#exampleModalMore">Посмотреть еще</button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalMore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-more">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Калязинский музей мобильных устройств</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"> Больше экспонатов вы найдете в нашем музее по адресу: <br> <a class="address-modal" href="https://maps.app.goo.gl/QbuvR7wMpZcYtk8M6" target="_blank"> ул. Школьная, 33, Калязин, Тверская обл., Россия, 171571.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-footer">
+        <footer class="py-2 mt-5">
+            <ul class="nav pb-3 mb-3 footer-list">
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"> <font color = "#173F9E"> Адрес:</font><br><a href="https://maps.app.goo.gl/QbuvR7wMpZcYtk8M6" target="_blank">ул. Школьная, 33, Калязин, Тверская обл., Россия, 171571</a> </li>
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"> <font color = "#173F9E"> Телефон:</font> <br> <a href="tel:+79252193637"target="_blank"> +7(925)219-36-37</a></li>
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"><font color = "#173F9E">VK:</font><br><a href="https://vk.link/kalyazinmobilmuzej" target="_blank"> kalyazinmobilmuzej</a></li>
+            </ul>
+            <a href="https://creative-auspicious-blackberry.glitch.me "><p class="text-center text-body-secondary created-by" target="_blank">Created by Korolkova</p></a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="cards.js"></script>
+</body>
+</html>

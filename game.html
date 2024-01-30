@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Offcanvas navbar large">
+        <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header nav-style">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Меню</h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-style">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Игра</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Стоимость</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First page -->
+
+
+    <section id="first-page" >
+        <div class="first-container">
+            <div class="col-12 col-md-12 col-lg-4 mt-5 address-container">
+                <div class="logo">
+                    <a class="navbar-brand " href="index.html"><img src="./img_main/logo_color.svg" alt="Калязинский музей мобильных устройств" width="260px"></a>
+                </div>
+                <div class="address">
+                    <h3 class="second-header">Адрес:</h3>
+                    <p class="article">Школьная ул., Калязин</p>
+                    <h3 class="second-header">Телефон:</h3>
+                    <p class="article">+7(925)219-36-37</p>
+                </div>
+            </div>
+                <div class="col-12 col-md-12 col-lg-6 first-random-container">
+                    <img id="foto-random" class="foto-first-page" src="./random/random.jpg" alt="">
+                    <button id="btn-random">Обновить</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- Menu -->
+    <section class="menu">
+        <div class="container">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
+                <div class="col btn-container">
+                    <a href="./phone.html"><button class="btn-menu">Телефоны</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./comp.html"><button class="btn-menu">ПК</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./game.html"><button class="btn-menu">Игры</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./audio.html"><button class="btn-menu">Аудио</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./video.html"><button class="btn-menu">Фото/Видео</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./other.html"><button class="btn-menu">Прочее</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards -->
+
+    <div>
+        <div class="game-heading">
+            <h1 class="header">Коллекция игровых приставок</h1>
+        </div>
+        <div class="input-container">
+            <input id="input-line" type="text" name="search" placeholder="Поиск...">
+        </div>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./game/game1-1.jpg" class="card-img-top" alt="Game Boy">
+                <div class="card-body card-name">
+                    <h5 class="card-title"><strong>Game Boy</strong></h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1989</p>
+                    <p class="card-text"><strong>Страна:</strong> Япония</p>
+                    <p class="card-text"><strong>Игры:</strong> 1046 игр на компактных картриджах</p>
+                    <p class="card-text"><strong>Вес:</strong> 220 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 148 × 90 × 32 мм</p>
+                    <p class="card-text">8-битная портативная игровая система, разработанная и произведённая компанией Nintendo. Первая портативная система семейства Game Boy была впервые выпущена в Японии 21 апреля 1989 года.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal1">Подробнее...</button>
+                <!-- Modal 1 -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Game Boy</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./game/game1-1.jpg" class="d-block w-100" alt="Game Boy">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./game/game1-2.jpg" class="d-block w-100" alt="Game Boy">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">8-битная портативная игровая система, разработанная и произведённая компанией Nintendo. <br> Первая портативная система семейства Game Boy была впервые выпущена в Японии 21 апреля 1989 года. <br> Система оснащена матричным экраном с регулируемой контрастностью, пятью кнопками (крестовина, две игровые кнопки, кнопки «START» и «SELECT»), одним динамиком с регулятором громкости и использует в качестве физического носителя для игр игровые картриджи. <br> На момент запуска система продавалась либо отдельно, либо в комплекте с одной из нескольких игр, среди которых были Super Mario Land и Tetris. <br> Также было разработано и выпущено несколько аксессуаров, таких как чехол для переноски, фотокамера и принтер.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./game/game2-1.jpg" class="card-img-top" alt="Brick Game">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Brick Game</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1989</p>
+                    <p class="card-text"><strong>Страна:</strong> Китай</p>
+                    <p class="card-text"><strong>Игры:</strong> 8 (в более поздних версиях 132, 576, 999 и 9999)</p>
+                    <p class="card-text"><strong>Вес:</strong> 90 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 184 x 76 x 18 мм</p>
+                    <p class="card-text">«Brick Game» (дословно — «Кирпичная игрá») — портативная игровая консоль со встроенными играми без возможности загрузки новых. Среди встроенных игр всегда находился «Тетрис». </p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Подробнее...</button>
+                <!-- Modal 2 -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Brick Game</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample2" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./game/game2-1.jpg" class="d-block w-100" alt="Brick Game">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./game/game2-2.jpg" class="d-block w-100" alt="Brick Game">
+                                        </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">«Brick Game» (дословно — «Кирпичная игрá») — портативная игровая консоль со встроенными играми без возможности загрузки новых. <br> Среди встроенных игр всегда находился «Тетрис» (из-за чего саму консоль в народе называют «Тетрисом»; впоследствии это название перешло и на другие подобные устройства), а состав и количество других игр различались. <br>
+                                    Классическая форма «Brick Game» — прямоугольная, со скруглёнными углами. <br> В нижней части консоли расположены различные кнопки управления, в верхней — экран. <br> Экран и кнопки разделяет волнообразный изгиб для того, чтобы консоль было удобнее поддерживать. Классический вариант кнопок: верхний ряд — «Старт/пауза», «Включить/выключить» и «Звук», нижний — для управления игрой: «Влево», «Вправо», «Вверх», «Вниз», «Поворот».
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./game/game3-1.jpg" class="card-img-top" alt="Tamagochi">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Tamagochi</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1996</p>
+                    <p class="card-text"><strong>Страна:</strong> Япония</p>
+                    <p class="card-text"><strong>Игры:</strong> 1</p>
+                    <p class="card-text"><strong>Вес:</strong> 90 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 55 х 65 х 30 мм</p>
+                    <p class="card-text">Тамагочи (яп. тамаготти) — игрушка, виртуальный домашний питомец. Идея создания принадлежала компании Bandai — третьему по величине производителю игрушек планеты.  </p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal3">Подробнее...</button>
+                <!-- Modal 3-->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Tamagochi</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample3" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./game/game3-1.jpg" class="d-block w-100" alt="Tamagochi">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./game/game3-2.jpg" class="d-block w-100" alt="Tamagochi">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Тамагочи (яп. тамаготти) — игрушка, виртуальный домашний питомец. <br> Идея создания принадлежала компании Bandai — третьему по величине производителю игрушек планеты. <br> Слово произошло от двух слов: японского тамаго (яп. «яйцо») и англицизма уотти (яп. от «Watch» — часы). <br>
+                                    Фактически виртуальный питомец жил сам по себе в это время внутри игрушки. <br> Пока устройство не используется, на протяжении какого-то времени, питомец мог успеть испражниться, заболеть или умереть, о чём сигнализировал встроенный динамик. <br>
+                                    Только в первые годы после появления и только официально было произведено более сорока миллионов тамагочи. <br> Помимо официальных, выпускались миллионы экземпляров аналогов и/или подделок, обычно китайского производства. <br> Именно такие экземпляры составляли основную массу тамагочи в России. <br> Смысл игры заключается в интерактивном наблюдении за жизнью питомца, от вылупления из яйца и до смерти.
+                                    </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./game/game4-1.jpg" class="card-img-top" alt="Dendy">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Dendy</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1992</p>
+                    <p class="card-text"><strong>Страна:</strong> Тайвань</p>
+                    <p class="card-text"><strong>Игры:</strong> множество игр на картриджах</p>
+                    <p class="card-text"><strong>Вес:</strong> 90 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 55 х 65 х 30 мм</p>
+                    <p class="card-text">Dendy, или «Де́нди» (произносится как «Дэ́нди») — серия игровых приставок, неофициальный аппаратный клон приставки третьего поколения Famicom японской компании Nintendo.  </p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal4">Подробнее...</button>
+                <!-- Modal 4 -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Dendy</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample4" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./game/game4-1.jpg" class="d-block w-100" alt="Dendy">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./game/game4-2.jpg" class="d-block w-100" alt="Dendy">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Dendy, или «Де́нди» (произносится как «Дэ́нди») — серия игровых приставок, неофициальный аппаратный клон приставки третьего поколения Famicom японской компании Nintendo. <br> Dendy выпускались с конца 1992 года компанией Steepler, собирались на Тайване из китайских комплектующих по заказу Steepler и в основном продавались в России. <br>
+                                    Модельный ряд Dendy разделялся на две категории — основная Classic и бюджетная Junior, — которые отличались конструкцией, качеством и ценой. <br> Classic были копией приставок Micro Genius тайваньской корпорации TXC Corporation и производились на том же заводе. <br> Junior создавались по удешевлённой технологии специально для Steepler и использовали «систему на кристалле». <br> Также планировалось выпустить в продажу версию Pro с одним проводным и одним беспроводным геймпадами, однако в итоге она поступила в продажу только одной небольшой партией.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./game/game5-1.jpg" class="card-img-top" alt="Электроника ИМ-02">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Электроника ИМ-02</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1984</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Игры:</strong> 1 </p>
+                    <p class="card-text"><strong>Вес:</strong> 90 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 112 х 67 х 14 мм</p>
+                    <p class="card-text">«Ну, погоди!» («Электроника ИМ-02») — электронная игра, самая известная и популярная из серии первых советских портативных электронных игр с жидкокристаллическим экраном, производимых под торговой маркой «Электроника».</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal5">Подробнее...</button>
+                <!-- Modal 5-->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Электроника ИМ-02</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample5" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./game/game5-1.jpg" class="d-block w-100" alt="Электроника ИМ-02">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./game/game5-2.jpg" class="d-block w-100" alt="Электроника ИМ-02">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">«Ну, погоди!» («Электроника ИМ-02») — электронная игра, самая известная и популярная из серии первых советских портативных электронных игр с жидкокристаллическим экраном, производимых под торговой маркой «Электроника». <br> Производилась с 1984 года. Кроме игры, устройство обладает функцией часов и будильника. <br> Розничная цена составляла 25 рублей (позднее — 23 рубля). <br>
+                                    Четыре курицы, сидящие на насестах, несут яйца, скатывающиеся вниз по четырём лоткам. <br> Управляя Волком (из мультфильма «Ну, погоди!»), который может принимать четыре положения (напротив каждого лотка), требуется наловить как можно больше яиц в корзину. <br> За каждое пойманное яйцо игроку добавляется по одному очку. <br> Сначала яйца катятся медленно, но постепенно темп игры ускоряется. <br> После набора каждой целой сотни очков темп игры немного замедляется.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./game/game6-1.jpg" class="card-img-top" alt="Игровой ПК начала 2000х">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Игровой ПК начала 2000х</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 2000</p>
+                    <p class="card-text"><strong>Страна:</strong> - </p>
+                    <p class="card-text"><strong>Игры:</strong> бесконечное количество игр на компакт-дисках</p>
+                    <p class="card-text"><strong>Вес:</strong> 20 кг</p>
+                    <p class="card-text"><strong>Размеры:</strong> 500 х 600 х 500 мм</p>
+                    <p class="card-text">В то время, наличие 64 МБ (мегабайт) ОЗУ в формате EDO и жесткого диска емкостью 20 Гбайт было почти роскошью.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal6">Подробнее...</button>
+                <!-- Modal 6-->
+                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Игровой ПК начала 2000х</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample6" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./game/game6-1.jpg" class="d-block w-100" alt="Игровой ПК начала 2000х">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./game/game6-2.jpg" class="d-block w-100" alt="Игровой ПК начала 2000х">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">В то время, наличие 64 МБ (мегабайт) ОЗУ в формате EDO и жесткого диска емкостью 20 Гбайт было почти роскошью. <br> ПК обычно использовали Windows 95 в качестве операционной системы, хотя во многих случаях она сосуществовала с MS-DOS 6.22. <br> Блоки питания имели мощность 200-250 Вт, и этого было достаточно для большинства игровых видеокарт на тот момент, таких как GeForce 2 GTS. <br> Наверняка вы видели изображения ЭЛТ-мониторов, которые занимали огромное пространство на столе, они сильно нагревались. <br> Эти мониторы были от 14 до 17 дюймов, а разрешение было всего лишь SVGA (800 x 600 пикселей). <br> В 2000 году были шариковые мыши, где постоянно приходилось вынимать шарик и мыть водой с мылом, потому что они забивались всякой грязью.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button modal -->
+
+    <div class="btn-modal-more">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-modal-more-style" data-bs-toggle="modal" data-bs-target="#exampleModalMore">Посмотреть еще</button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalMore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-more">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Калязинский музей мобильных устройств</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"> Больше экспонатов вы найдете в нашем музее по адресу: <br> <a class="address-modal" href="https://maps.app.goo.gl/QbuvR7wMpZcYtk8M6" target="_blank"> ул. Школьная, 33, Калязин, Тверская обл., Россия, 171571.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-footer">
+        <footer class="py-2 mt-5">
+            <ul class="nav pb-3 mb-3 footer-list">
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"> <font color = "#173F9E"> Адрес:</font><br><a href="https://maps.app.goo.gl/QbuvR7wMpZcYtk8M6" target="_blank">ул. Школьная, 33, Калязин, Тверская обл., Россия, 171571</a> </li>
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"> <font color = "#173F9E"> Телефон:</font> <br> <a href="tel:+79252193637"target="_blank"> +7(925)219-36-37</a></li>
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"><font color = "#173F9E">VK:</font><br><a href="https://vk.link/kalyazinmobilmuzej" target="_blank"> kalyazinmobilmuzej</a></li>
+            </ul>
+            <a href="https://creative-auspicious-blackberry.glitch.me "><p class="text-center text-body-secondary created-by" target="_blank">Created by Korolkova</p></a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="cards.js"></script>
+</body>
+</html>

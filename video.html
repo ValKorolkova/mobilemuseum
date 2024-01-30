@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto&Video</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Offcanvas navbar large">
+        <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header nav-style">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Меню</h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-style">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Игра</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Стоимость</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First page -->
+
+
+    <section id="first-page" >
+        <div class="first-container">
+            <div class="col-12 col-md-12 col-lg-4 mt-5 address-container">
+                <div class="logo">
+                    <a class="navbar-brand " href="index.html"><img src="./img_main/logo_color.svg" alt="Калязинский музей мобильных устройств" width="260px"></a>
+                </div>
+                <div class="address">
+                    <h3 class="second-header">Адрес:</h3>
+                    <p class="article">Школьная ул., Калязин</p>
+                    <h3 class="second-header">Телефон:</h3>
+                    <p class="article">+7(925)219-36-37</p>
+                </div>
+            </div>
+                <div class="col-12 col-md-12 col-lg-6 first-random-container">
+                    <img id="foto-random" class="foto-first-page" src="./random/random.jpg" alt="">
+                    <button id="btn-random">Обновить</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- Menu -->
+    <section class="menu">
+        <div class="container">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
+                <div class="col btn-container">
+                    <a href="./phone.html"><button class="btn-menu">Телефоны</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./comp.html"><button class="btn-menu">ПК</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./game.html"><button class="btn-menu">Игры</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./audio.html"><button class="btn-menu">Аудио</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./video.html"><button class="btn-menu">Фото/Видео</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./other.html"><button class="btn-menu">Прочее</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards -->
+
+    <div>
+        <div class="game-heading">
+            <h1 class="header">Коллекция фото и видео устройств</h1>
+        </div>
+        <div class="input-container">
+            <input id="input-line" type="text" name="search" placeholder="Поиск...">
+        </div>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./foto/foto1-1.jpg" class="card-img-top" alt="Зенит-ЕТ">
+                <div class="card-body card-name">
+                    <h5 class="card-title"><strong>Зенит-ЕТ</strong></h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1982</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> зеркальный пленочный фотоаппарат</p>
+                    <p class="card-text"><strong>Вес:</strong> 920 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 138×96×100 мм</p>
+                    <p class="card-text">Зенит-ЕТ — малоформатный однообъективный зеркальный фотоаппарат с ручной установкой экспозиции и встроенным несопряжённым селеновым экспонометром, выпускавшийся на Белорусском оптико-механическом объединении с 1982 по 1995 год. </p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal1">Подробнее...</button>
+                <!-- Modal 1 -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Зенит-ЕТ</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./foto/foto1-1.jpg" class="d-block w-100" alt="Зенит-ЕТ">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./foto/foto1-2.jpg" class="d-block w-100" alt="Зенит-ЕТ">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Зенит-ЕТ — малоформатный однообъективный зеркальный фотоаппарат с ручной установкой экспозиции и встроенным несопряжённым селеновым экспонометром, выпускавшийся на Белорусском оптико-механическом объединении с 1982 по 1995 год. <br> Всего изготовлено около 3 миллионов экземпляров. <br> Тип применяемого фотоматериала — 35-мм перфорированная фотокиноплёнка шириной 35 мм (фотоплёнка типа 135) в кассетах. <br> Размер кадра — 24×36 мм. <br> Корпус — литой из алюминиевого сплава, с открывающейся задней стенкой, на моделях поздних выпусков скрытый замок.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./foto/foto2-1.jpg" class="card-img-top" alt="Рекорд-12">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Рекорд-12</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1959</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> черно-белый телевизор</p>
+                    <p class="card-text"><strong>Вес:</strong> 25 кг</p>
+                    <p class="card-text"><strong>Размеры:</strong> 485х425х550 мм</p>
+                    <p class="card-text">Телевизионный приемник ч/б изображения "Рекорд-12" с 1959 года выпускали Воронежский завод "Электросигнал" и Бакинский радиозавод.  </p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Подробнее...</button>
+                <!-- Modal 2 -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Рекорд-12</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample2" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./foto/foto2-1.jpg" class="d-block w-100" alt="Рекорд-12">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./foto/foto2-2.jpg" class="d-block w-100" alt="Рекорд-12">
+                                        </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Телевизионный приемник ч/б изображения "Рекорд-12" с 1959 года выпускали Воронежский завод "Электросигнал" и Бакинский радиозавод. <br> Телевизор содержит 15 радиоламп, 10 диодов и кинескоп типа 35ЛК2Б. <br> Футляры изготавливались из фанеры с имитацией под ценные породы дерева. <br> В телевизоре Бакинского радиозавода имеется возможность отключения громкоговорителя и подключения наушников для прослушивания звукового сопровождения телепередач. <br> Гнезда для телефонов могли быть использованы и для записи звука на магнитофон.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./foto/foto3-1.jpg" class="card-img-top" alt="Фотокор № 1">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Фотокор № 1</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1930</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> компактный пластиночный фотоаппарат</p>
+                    <p class="card-text"><strong>Вес:</strong> 1150 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 160×115×64 мм</p>
+                    <p class="card-text">Фотокор — пластиночный фотоаппарат, выпускавшийся на ленинградском заводе ГОМЗ в 1930—1940-х годах.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal3">Подробнее...</button>
+                <!-- Modal 3-->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Фотокор № 1</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample3" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./foto/foto3-1.jpg" class="d-block w-100" alt="Фотокор № 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./foto/foto3-2.jpg" class="d-block w-100" alt="Фотокор № 1">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Фотокор — пластиночный фотоаппарат, выпускавшийся на ленинградском заводе ГОМЗ в 1930—1940-х годах. Представлял собой складной фотоаппарат прямого визирования формата 9×12 см с рамочным и уголковым видоискателями и двойным растяжением меха. Первый советский массовый фотоаппарат — за 11 лет производства (с 1930 по 1941 годы включительно) выпущено более 1 млн экземпляров.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./foto/foto4-1.jpg" class="card-img-top" alt="Свет ДМ-3Т">
+                <div class="card-body card-name">
+                    <h5 class="card-title">РСвет ДМ-3Т</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1975</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong>  проектор для пленочных диафильмов</p>
+                    <p class="card-text"><strong>Вес:</strong> 3500 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 155х105х220 мм</p>
+                    <p class="card-text">Малогабаритный диапроектор «Свет» модель ДМ-3Т предназначен для демонстрации диафильмов, рамочных диапозитивов и кадров на пленке в роликах.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal4">Подробнее...</button>
+                <!-- Modal 4 -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Свет ДМ-3Т</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample4" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./foto/foto4-1.jpg" class="d-block w-100" alt="Свет ДМ-3Т">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./foto/foto4-2.jpg" class="d-block w-100" alt="Свет ДМ-3Т">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Малогабаритный диапроектор «Свет» модель ДМ-3Т предназначен для демонстрации диафильмов, рамочных диапозитивов и кадров на пленке в роликах. <br> Высокий световой поток диапроектора позволяет демонстрировать кадры с цветной пленки. <br> В диапроекторе используется лампа К12-90 (12В 90Вт), 3-х линзовый конденсор с теплофильтром и объектив типа Триплет. <br> Изображение яркое и резкое по всей площади.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./foto/foto5-1.jpg" class="card-img-top" alt="ЛОМО-214">
+                <div class="card-body card-name">
+                    <h5 class="card-title">ЛОМО-214</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1976</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> компактная пленочная видеокамера </p>
+                    <p class="card-text"><strong>Вес:</strong> 800 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 230х165х56 мм</p>
+                    <p class="card-text">«ЛОМО-214» — семейство советских унифицированных любительских киносъёмочных аппаратов, рассчитанных на 8-мм киноплёнку и выпускавшихся на Ленинградском оптико-механическом объединении с 1976 по 1990-е годы.  </p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal5">Подробнее...</button>
+                <!-- Modal 5-->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Океан-209</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample5" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./foto/foto5-1.jpg" class="d-block w-100" alt="ЛОМО-214">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./foto/foto5-2.jpg" class="d-block w-100" alt="ЛОМО-214">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">«ЛОМО-214» — семейство советских унифицированных любительских киносъёмочных аппаратов, рассчитанных на 8-мм киноплёнку и выпускавшихся на Ленинградском оптико-механическом объединении с 1976 по 1990-е годы. <br> Предназначена для съемки на кинопленку 1х8 тип "С"; система зарядки - кассетная; емкость кассеты - 15 м. <br> Объектив с переменным фокусным расстоянием "Агат-14" (2,8/9-27 мм). <br> Фокусировка объектива производится по шкале расстояний от 1,5 м до ∞. Частота съемки - 18 кадр/с; привод - электродвигатель.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./foto/foto6-1.jpg" class="card-img-top" alt="Компактный DVD проигрыватель">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Компактный DVD проигрыватель</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 2010</p>
+                    <p class="card-text"><strong>Страна:</strong> Китай</p>
+                    <p class="card-text"><strong>Тип:</strong> проигрыватель DVD дисков</p>
+                    <p class="card-text"><strong>Вес:</strong> 1,3 кг</p>
+                    <p class="card-text"><strong>Размеры:</strong> 210х170х42 мм</p>
+                    <p class="card-text">Представляем DVD-плеер с уникальным 180° поворотным дизайном и 7-дюймовым TFT LCD экраном. Совместим с DVD/DVD±R/DVD±RW/VCD/MP3/MP4/CD±R/CD±RW/JPEG.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal6">Подробнее...</button>
+                <!-- Modal 6-->
+                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Компактный DVD проигрыватель</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample6" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./foto/foto6-1.jpg" class="d-block w-100" alt="Компактный DVD проигрыватель">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./foto/foto6-2.jpg" class="d-block w-100" alt="Компактный DVD проигрыватель">
+                                        </div>
+                                    </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Представляем DVD-плеер с уникальным 180° поворотным дизайном и 7-дюймовым TFT LCD экраном. Совместим с DVD/DVD±R/DVD±RW/VCD/MP3/MP4/CD±R/CD±RW/JPEG. Аккумулятор на 2000 мАч обеспечивает более 2 часов работы. Есть AV вход/выход для подключения к другим устройствам. Удобный и многофункциональный, идеально подходит для развлечений в любом месте.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button modal -->
+
+    <div class="btn-modal-more">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-modal-more-style" data-bs-toggle="modal" data-bs-target="#exampleModalMore">Посмотреть еще</button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalMore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-more">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Калязинский музей мобильных устройств</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"> Больше экспонатов вы найдете в нашем музее по адресу: <br> <a class="address-modal" href="https://maps.app.goo.gl/QbuvR7wMpZcYtk8M6" target="_blank"> ул. Школьная, 33, Калязин, Тверская обл., Россия, 171571.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-footer">
+        <footer class="py-2 mt-5">
+            <ul class="nav pb-3 mb-3 footer-list">
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"> <font color = "#173F9E"> Адрес:</font><br><a href="https://maps.app.goo.gl/QbuvR7wMpZcYtk8M6" target="_blank">ул. Школьная, 33, Калязин, Тверская обл., Россия, 171571</a> </li>
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"> <font color = "#173F9E"> Телефон:</font> <br> <a href="tel:+79252193637"target="_blank"> +7(925)219-36-37</a></li>
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"><font color = "#173F9E">VK:</font><br><a href="https://vk.link/kalyazinmobilmuzej" target="_blank"> kalyazinmobilmuzej</a></li>
+            </ul>
+            <a href="https://creative-auspicious-blackberry.glitch.me "><p class="text-center text-body-secondary created-by" target="_blank">Created by Korolkova</p></a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="cards.js"></script>
+</body>
+</html>

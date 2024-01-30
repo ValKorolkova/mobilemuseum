@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Offcanvas navbar large">
+        <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header nav-style">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Меню</h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-style">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Игра</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Стоимость</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First page -->
+
+
+    <section id="first-page" >
+        <div class="first-container">
+            <div class="col-12 col-md-12 col-lg-4 mt-5 address-container">
+                <div class="logo">
+                    <a class="navbar-brand " href="index.html"><img src="./img_main/logo_color.svg" alt="Калязинский музей мобильных устройств" width="260px"></a>
+                </div>
+                <div class="address">
+                    <h3 class="second-header">Адрес:</h3>
+                    <p class="article">Школьная ул., Калязин</p>
+                    <h3 class="second-header">Телефон:</h3>
+                    <p class="article">+7(925)219-36-37</p>
+                </div>
+            </div>
+                <div class="col-12 col-md-12 col-lg-6 first-random-container">
+                    <img id="foto-random" class="foto-first-page" src="./random/random.jpg" alt="">
+                    <button id="btn-random">Обновить</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- Menu -->
+    <section class="menu">
+        <div class="container">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
+                <div class="col btn-container">
+                    <a href="./phone.html"><button class="btn-menu">Телефоны</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./comp.html"><button class="btn-menu">ПК</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./game.html"><button class="btn-menu">Игры</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./audio.html"><button class="btn-menu">Аудио</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./video.html"><button class="btn-menu">Фото/Видео</button></a>
+                </div>
+                <div class="col btn-container">
+                    <a href="./other.html"><button class="btn-menu">Прочее</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards -->
+
+    <div>
+        <div class="game-heading">
+            <h1 class="header">Коллекция полезных устройств</h1>
+        </div>
+        <div class="input-container">
+            <input id="input-line" type="text" name="search" placeholder="Поиск...">
+        </div>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./other/other1-2.jpg" class="card-img-top" alt="Улыбка-400М">
+                <div class="card-body card-name">
+                    <h5 class="card-title"><strong>Улыбка-400М</strong></h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1985</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> фен переносной</p>
+                    <p class="card-text"><strong>Вес:</strong> 1650 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 217х210х86 мм</p>
+                    <p class="card-text">Фен переносной с насадками "Улыбка" модели 400М предназначен для сушки волос в домашних условиях. </p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal1">Подробнее...</button>
+                <!-- Modal 1 -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Улыбка-400М</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./other/other1-2.jpg" class="d-block w-100" alt="Улыбка-400М">
+                                        </div>
+                                    </div>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Фен переносной с насадками "Улыбка" модели 400М предназначен для сушки волос в домашних условиях. Режим работы — повторно-кратковременный с длительностью рабочего периода не более 1 часа и длительностью выключенного состояния не менее 30 мин. При перегреве фен автоматически отключается, после охлаждения автоматически включается.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./other/other2-2.jpg" class="card-img-top" alt="Машинка для штопки">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Машинка для штопки</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1960</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> машинка для штопки чулок и носков</p>
+                    <p class="card-text"><strong>Вес:</strong> 60 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 110х90х20 мм</p>
+                    <p class="card-text">Машинка для штопки чулок и носок 1960-х годов.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal2">Подробнее...</button>
+                <!-- Modal 2 -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Машинка для штопки</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample2" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./other/other2-2.jpg" class="d-block w-100" alt="Машинка для штопки">
+                                        </div>
+                                    </div>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Машинка для штопки чулок и носок 1960-х годов. Завод изготовитель – Ленэмальер, производство СССР. Отдельно нужно было приобрести нитки для штопки, раньше они выпускались специально для этого.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./other/other3-2.jpg" class="card-img-top" alt="Стежок-1">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Стежок-1</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1987</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> компактная швейная машинка</p>
+                    <p class="card-text"><strong>Вес:</strong> 150 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 140х110х60 мм</p>
+                    <p class="card-text">Небольшая ручная швейная машинка Стежок-1, изготовлена на производственном объединении "Завод им. М.И. Калинина". </p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal3">Подробнее...</button>
+                <!-- Modal 3-->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Стежок-1</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample3" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./other/other3-2.jpg" class="d-block w-100" alt="Стежок-1">
+                                        </div>
+                                    </div>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Небольшая ручная швейная машинка Стежок-1, изготовлена на производственном объединении "Завод им. М.И. Калинина". В комплекте пластмассовый диск с гибкой пружинящей проволокой - для затягивания нитки в иголку.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./other/other4-2.jpg" class="card-img-top" alt="Электроника 55">
+                <div class="card-body card-name">
+                    <h5 class="card-title">Электроника 55</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1973</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong>  наручные электронные часы</p>
+                    <p class="card-text"><strong>Вес:</strong> 75 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 35х35х6 мм</p>
+                    <p class="card-text">Серия объединяла часы с маркировками «Электроника 5», «Электроника 5x», «Электроника 5-xxx» и т. п. Все часы серии производились на мощностях минского НПО «Интеграл» (заводы «Электроника» и «Камертон»).</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal4">Подробнее...</button>
+                <!-- Modal 4 -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Электроника 55</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample4" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./other/other4-2.jpg" class="d-block w-100" alt="Электроника 55">
+                                        </div>
+                                    </div>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Серия объединяла часы с маркировками «Электроника 5», «Электроника 5x», «Электроника 5-xxx» и т.п. <br> Все часы серии производились на мощностях минского НПО «Интеграл» (заводы «Электроника» и «Камертон»). <br> В большинстве часов этой серии присутствует функция ручной цифровой настройки хода (ЦНХ), которая отсутствует в большинстве зарубежных аналогов (точнее вообще во всех). <br> В интерфейсе часов предусмотрено специальное меню, в котором можно указать поправку, добавляемую (или вычитаемую) к текущему времени за сутки. 
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./other/other5-2.jpg" class="card-img-top" alt="УИИП-1">
+                <div class="card-body card-name">
+                    <h5 class="card-title">УИИП-1</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1986</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> ингалятор ультразвуковой</p>
+                    <p class="card-text"><strong>Вес:</strong> 199 г</p>
+                    <p class="card-text"><strong>Размеры:</strong> 230х190х76 мм</p>
+                    <p class="card-text">Ингалятор ультразвуковой УИИП-1. Применяется при острых и хронических заболеваниях верхних дыхательных путей, легких, среднего уха, при повышенной голосовой нагрузке.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal5">Подробнее...</button>
+                <!-- Modal 5-->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">УИИП-1</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample5" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./other/other5-2.jpg" class="d-block w-100" alt="УИИП-1">
+                                        </div>
+                                    </div>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Ингалятор ультразвуковой УИИП-1. <br> Применяется при острых и хронических заболеваниях верхних дыхательных путей, легких, среднего уха, при повышенной голосовой нагрузке. <br> Лицам пожилого возраста при ощущении сухости в носоглотке и глотке, а так же детям. <br> Изготовитель: Черкасский приборостроительный завод.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 card-main">
+                <img src="./other/other6-2.jpg" class="card-img-top" alt="УТ-400">
+                <div class="card-body card-name">
+                    <h5 class="card-title">УТ-400</h5>
+                    <p class="card-text"><strong>Год выпуска:</strong> 1982</p>
+                    <p class="card-text"><strong>Страна:</strong> СССР</p>
+                    <p class="card-text"><strong>Тип:</strong> компактный электроутюг</p>
+                    <p class="card-text"><strong>Вес:</strong> 0,8 кг</p>
+                    <p class="card-text"><strong>Размеры:</strong> 210х120х60 мм</p>
+                    <p class="card-text">Электроутюг УТ - 400-0,8 220. дорожный, со складной ручкой времен СССР.</p>
+                </div>
+                <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal6">Подробнее...</button>
+                <!-- Modal 6-->
+                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">УТ-400</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExample6" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./other/other6-2.jpg" class="d-block w-100" alt="УТ-400">
+                                        </div>
+                                    </div>
+                            </div>
+                            <div>
+                                <p class="card-text modal-text">Электроутюг УТ - 400-0,8 220. дорожный, со складной ручкой времен СССР. Изготовитель Головинский завод "Электроприбор". Номинальная мощность 400 Вт, время нагрева до температуры 200 градусов не более 3 мин.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button modal -->
+
+    <div class="btn-modal-more">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-modal-more-style" data-bs-toggle="modal" data-bs-target="#exampleModalMore">Посмотреть еще</button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalMore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-more">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Калязинский музей мобильных устройств</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"> Больше экспонатов вы найдете в нашем музее по адресу: <br> <a class="address-modal" href="https://maps.app.goo.gl/QbuvR7wMpZcYtk8M6" target="_blank"> ул. Школьная, 33, Калязин, Тверская обл., Россия, 171571.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <div class="container-footer">
+        <footer class="py-2 mt-5">
+            <ul class="nav pb-3 mb-3 footer-list">
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"> <font color = "#173F9E"> Адрес:</font><br><a href="https://maps.app.goo.gl/QbuvR7wMpZcYtk8M6" target="_blank">ул. Школьная, 33, Калязин, Тверская обл., Россия, 171571</a> </li>
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"> <font color = "#173F9E"> Телефон:</font> <br> <a href="tel:+79252193637"target="_blank"> +7(925)219-36-37</a></li>
+                <li class="nav-item nav-link px-2 text-body-secondary footer-box"><font color = "#173F9E">VK:</font><br><a href="https://vk.link/kalyazinmobilmuzej" target="_blank"> kalyazinmobilmuzej</a></li>
+            </ul>
+            <a href="https://creative-auspicious-blackberry.glitch.me "><p class="text-center text-body-secondary created-by" target="_blank">Created by Korolkova</p></a>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="cards.js"></script>
+</body>
+</html>
