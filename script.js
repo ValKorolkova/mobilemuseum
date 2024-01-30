@@ -30,8 +30,8 @@ btnRandom.addEventListener("click", ()=>{
     
     button.addEventListener('click', result);
     
-    function result(e){
-        e.preventDefault();
+    function result(){
+        // e.preventDefault();
         let points = 0;
         answersOne.forEach(answerOne =>{
             if(answerOne.checked){
