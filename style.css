@@ -724,8 +724,10 @@ input {
     .img-news {
         width: 100%;
     }
-	  .news-article {
-        font-size: 14px;
+	   .news-article {
+        font-size: 12px;
+        padding: 4px;
+        margin-bottom: 0;
     }
     
     .sloboda-foto {
