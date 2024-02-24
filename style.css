@@ -743,6 +743,9 @@ input {
     .offcanvas {
         --bs-offcanvas-width: 200px;
     }
+    .card-main {
+        height: 300px;
+}
     .card-name {
         height: 560px;
     }
