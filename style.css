@@ -745,6 +745,7 @@ input {
     }
     .card-main {
         height: 300px;
+	    align-items: start;
 }
     .card-name {
         height: 560px;
