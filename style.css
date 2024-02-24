@@ -484,6 +484,7 @@ input {
     align-items: center;
     flex-wrap: wrap;
     border: 1px solid rgb(244,211,10);
+	height: 500px;
 }
 
 .input-container{
